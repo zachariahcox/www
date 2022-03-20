@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body {
+      display: grid;
+      justify-content: center;
+      width: 100vw;
+    }
+    h1 {
+      font-family: sans-serif;
+      padding: 2px;
+      width: fit-content;
+    }
+    button {
+      display: block;
+      margin: 0 auto;
+      margin-top: 50px;
+    }
+
+    .main {
+      width: 500px;
+      height: 350px;
+      background-color: #e9e9e9;
+      border-color: #EEE;
+      border-radius: 10px;
+      border-width: 2px;
+
+      display: grid;
+      justify-content: center;
+      align-content: center;
+    }
+    .main > * {
+      grid-column: 1;
+      grid-row: 1;
+    }
+
+    .rainbow-text {
+        background-image: linear-gradient(to left, violet, indigo, blue, green, rgb(255, 255, 0), orange, red);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        font-size: 25px;
+        transition: background-image .25s ease-in-out;
+        animation-name: spin;
+        animation-duration: 5000ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    .center-screen {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        min-height: 100vh;
+        width: 200px;
+    }
+    @keyframes spin {
+        from {
+            transform:rotate(0deg);
+        }
+        to {
+            transform:rotate(360deg);
+        }
+    }
+</style>
+</head>
+<body>
+    <h1>Apollo Sayings</h1>
+    <div class="main">
+        <div id='saying' class='rainbow-text center-screen'>welcome!</div>
+    </div>
+    <button onClick="changeText()">change!</button>
+</body>
+<script>
+    var apolloSayings = [
+        "Abbidy dupe dap!",
+        "I'm hungry",
+        "I'm not sure?",
+        "I'm tired",
+        "Apps",
+        "Deelee",
+        "ok",
+        "yeah",
+        "That's ok!",
+        "Maybe",
+        "Yeesh!",
+        "aye aye aye"
+    ];
+    var saying = document.getElementById('saying');
+    function changeText() {
+        saying.innerHTML = apolloSayings[Math.floor(Math.random() * apolloSayings.length)];
+    }
+</script>
+</html>
