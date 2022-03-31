@@ -69,12 +69,12 @@
 </style>
 </head>
 <body>
-    <h1>Apollo Sayings</h1>
+    <h1>apollo sayings</h1>
     <div class="main">
-        <div id='saying' class='rainbow-text center-screen'>welcome!</div>
+        <div id="saying" class="rainbow-text center-screen">click to change text!</div>
     </div>
-    <button onClick="changeText()">change!</button>
-</body>
+    <button id="change">change!</button>
+</body> 
 <script>
     var apolloSayings = [
         "Abbidy dupe dap!",
@@ -90,9 +90,11 @@
         "Yeesh!",
         "aye aye aye"
     ];
-    var saying = document.getElementById('saying');
+    window.text_index = 0
     function changeText() {
-        saying.innerHTML = apolloSayings[Math.floor(Math.random() * apolloSayings.length)];
+        document.getElementById("saying").innerHTML = apolloSayings[window.text_index % apolloSayings.length];
+        window.text_index += 1
     }
+    document.getElementById("change").onclick = changeText
 </script>
 </html>
