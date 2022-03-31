@@ -1,6 +1,3 @@
----
-title: welcome
----
 * [meetings](meetings.md)
 * [expectations](expectations.md)
 * [random resources](resources.md)

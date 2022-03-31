@@ -1,5 +1,5 @@
 ---
-title: resources
+title: software
 ---
 
 High quality, reviewable code tends to have a structure like this: 
