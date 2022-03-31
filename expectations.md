@@ -1,5 +1,6 @@
 ---
 title: expectations
+layout: default
 ---
 ### honesty / information stability 
 I try to be as transparent as possible, and I expect the same from you.

@@ -1,5 +1,6 @@
 ---
 title: software
+layout: default
 ---
 
 High quality, reviewable code tends to have a structure like this: 
