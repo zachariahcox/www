@@ -1,5 +1,6 @@
 ---
 title: resources
+layout: default
 ---
 
 ## books
