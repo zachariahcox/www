@@ -18,6 +18,7 @@ layout: default
 
 
 4. what causes you stress? 
+* how can I tell if you're in a bad mood? how can I help when that happens?
 
 
 5. what do you like from your manager? 
@@ -31,4 +32,8 @@ layout: default
 * what's something your favorite previous manager was LESS good at?
 
 7. how do you like to receive praise? what makes you feel appreciated? 
-
+ 
+8. time off
+generally aim for about a week per quarter. 
+let the team know in the vacation calendar and workday.
+try to give us a few weeks of heads-up for longer time off.

@@ -2,13 +2,12 @@ theme: minima
 markdown: kramdown 
 title: zacdocs
 
-header_pages: nil
+header_pages:
+  - about.md
   
 author:
-  name: zac
+  name: zachariah cox
   email: zachariahcox@gmail.com
 
-minima:
-  social_links:
-    github: zachariahcox
-    linkedin: zachariahcox
+github_username: zachariahcox
+linkedin_username: zachariahcox
