@@ -1,10 +1,13 @@
 theme: minima
-title: docs
-description: >
-  Howdy! This is a collection of notes I've taken for working on teams with me. 
-  Please reach out to let me know if there are things I missed!
-markdown: kramdown
+markdown: kramdown 
+title: zacdocs
 
+description: >
+  Howdy! This is a collection of notes I've taken for anyone working on teams with me. 
+  Please reach out to let me know if there are things I missed!
+
+header_pages:
+  
 minima:
   social_links:
     github: zachariahcox

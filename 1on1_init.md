@@ -2,8 +2,6 @@
 title: first-one-on-one
 ---
 
-# first 1:1 agenda
-
 1. where are you presently in your career? 
 
 * what career-related skills are you currently working on? 
