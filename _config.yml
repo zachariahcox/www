@@ -1,3 +1,11 @@
 theme: minima
 title: docs
-description: "<description>"
+description: >
+  Howdy! This is a collection of notes I've taken for working on teams with me. 
+  Please reach out to let me know if there are things I missed!
+markdown: kramdown
+
+minima:
+  social_links:
+    github: zachariahcox
+    linkedin: zachariahcox

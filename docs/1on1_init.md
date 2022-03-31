@@ -1,4 +1,8 @@
-## first 1:1 agenda
+---
+title: first-one-on-one
+---
+
+# first 1:1 agenda
 
 1. where are you presently in your career? 
 

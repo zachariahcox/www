@@ -1,4 +1,5 @@
 ### writing software 
+
 High quality, reviewable code tends to have a structure like this: 
 ```
 // "this function will add two numbers and return the result"
