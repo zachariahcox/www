@@ -1,6 +1,6 @@
 theme: minima
-markdown: kramdown 
 title: zacdocs
+description: manual for working with zac
 
 header_pages:
   - about.md

@@ -1,10 +1,6 @@
-Howdy! These are various lists of things that will hopefully clarify things 
+I like solving difficult problems, as a team, using science. 
 
-Please reach out to let me know if there are things I missed!
-
-## table of contents
-* [meetings](meetings.md)
-* [expectations](expectations.md)
-* [feedback]()
-* [random resources](resources.md)
+## table of contents 
+* [working with humans](https://github.com/zachariahcox/zachariahcox/tree/main/docs/humans)
+* [working with computers](https://github.com/zachariahcox/zachariahcox/tree/main/docs/computers)
 * [apollo's website](apollo/index.html)
