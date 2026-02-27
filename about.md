@@ -1,6 +1,6 @@
 ---
 title: about
-layout: default
+layout: page
 ---
 👋 howdy! I'm zac, I work on [GitHub Repos](https://github.com/github). 
 

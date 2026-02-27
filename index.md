@@ -1,3 +1,7 @@
+---
+layout: home
+---
+
 I like solving difficult problems, as a team, using science. 
 
 ## table of contents 
